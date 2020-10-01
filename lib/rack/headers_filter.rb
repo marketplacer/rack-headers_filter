@@ -7,6 +7,7 @@ module Rack
       HTTP_X_FORWARDED_PROTO
       HTTP_X_FORWARDED_SCHEME
       HTTP_X_FORWARDED_SSL
+      HTTP_CLIENT_IP
     ]
 
     # Headers sent by the Heroku router
